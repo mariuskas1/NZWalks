@@ -7,10 +7,10 @@ namespace NZWalks.API.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetAllStudents()
-        {
+        //[HttpGet]
+        //public IActionResult GetAllStudents()
+        //{
 
-        }
+        //}
     }
 }
