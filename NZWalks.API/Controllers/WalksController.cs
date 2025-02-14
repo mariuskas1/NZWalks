@@ -28,7 +28,7 @@ namespace NZWalks.API.Controllers
 
             await walkRepository.CreateAsync(walkDomainModel);
 
-            return Ok();
+            return Ok(mapper.Map<WalkDTO>(walkDomainModel));
         }
 
 
