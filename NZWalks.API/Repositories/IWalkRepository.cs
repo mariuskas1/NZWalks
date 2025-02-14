@@ -9,5 +9,7 @@ namespace NZWalks.API.Repositories
         Task<List<Walk>>GetAllAsync();
 
         Task<Walk?>GetByIdAsync(Guid id);
+
+        Task<Walk?> UpdateAsync(Guid id, Walk walk);
     }
 }
